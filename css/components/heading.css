@@ -1,0 +1,35 @@
+.heading {
+  width: 100%;
+  font-size: 66px;
+  line-height: 72px;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: bold;
+  margin: 0 auto 30px;
+  color: #0A192F;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1600px) {
+  .heading {
+    font-size: 46px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    text-align: center;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .heading {
+    text-align: center;
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
